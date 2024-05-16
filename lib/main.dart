@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // import 'package:instagram_flutter/responsive/web_screen_layout.dart';
 // import 'package:instagram_flutter/responsive/mobile_screen_layout.dart';
 import 'package:instagram_flutter/screens/login_screen.dart';
+import 'package:instagram_flutter/screens/signup_screen.dart';
 import 'package:instagram_flutter/utils/colors.dart';
 
 Future<void> main() async {
@@ -42,7 +43,7 @@ class MainApp extends StatelessWidget {
           //   webScreenLayout: WebScreenLayout(),
           //   mobileScreenLayout: MobileScreenLayout(),
           // ),
-          child: LoginScreen(),
+          child: SignupScreen(),
         ),
       ),
     );

@@ -56,10 +56,10 @@ class _SignupScreenState extends State<SignupScreen> {
     setState(() {
       _isLoading = false;
     });
-    // if (res != 'succesfully data saved') {
-    //   showSnackBar(res, context);
-    // }
-    print(res);
+    if (res != 'succesfully data saved') {
+      showSnackBar(res, context);
+    }
+    // print(res);
   }
 
   @override
